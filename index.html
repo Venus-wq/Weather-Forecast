@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Weather Redirect</title>
+  <link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+  <main class="weather-container">
+    <h1>Check World Weather</h1>
+    <form id="weatherForm">
+      <input type="text" id="cityInput" placeholder="Enter any city" required />
+      <select id="provider">
+        <option value="google">Google Weather</option>
+        <option value="weathercom">Weather.com</option>
+        <option value="openweather">OpenWeatherMap</option>
+      </select>
+      <button type="submit">View Forecast</button>
+    </form>
+  </main>
+  <script src="weather.js"></script>
+</body>
+</html>
